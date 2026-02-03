@@ -1,0 +1,9 @@
+# Dao left half board configuration
+# Copyright (c) 2021 Rafael Yumagulov
+# SPDX-License-Identifier: MIT
+
+config BOARD_DAO_LEFT
+	select SOC_NRF52840_QIAA
+	imply RETAINED_MEM
+	imply RETENTION
+	imply RETENTION_BOOT_MODE

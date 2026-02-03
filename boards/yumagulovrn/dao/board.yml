@@ -1,0 +1,9 @@
+boards:
+  - name: dao_left
+    vendor: yumagulovrn
+    socs:
+      - name: nrf52840
+  - name: dao_right
+    vendor: yumagulovrn
+    socs:
+      - name: nrf52840
