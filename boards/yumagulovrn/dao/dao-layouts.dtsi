@@ -13,7 +13,7 @@
 		display-name = "Dao 44";
 		transform = <&extra_keys_transform>;
 		kscan = <&kscan0>;
-		keys = <
+		keys = <  //            w   h   x y rot rx ry
 			&key_physical_attrs 100 100 0 159 0 0 0
 			&key_physical_attrs 100 100 100 79 0 0 0
 			&key_physical_attrs 100 100 200 66 0 0 0
@@ -54,8 +54,8 @@
 			&key_physical_attrs 100 100 1450 279 0 0 0
 			&key_physical_attrs 100 100 450 329 0 0 0
 			&key_physical_attrs 100 100 560 344 1500 611 394
-			&key_physical_attrs 150 100 348 263 3000 398 790
-			&key_physical_attrs 150 100 1052 263 (-3000) 1102 790
+			&key_physical_attrs 150 100 348 263 12000 398 790
+			&key_physical_attrs 150 100 1052 263 6000 1102 790
 			&key_physical_attrs 100 100 990 344 (-1500) 1040 394
 			&key_physical_attrs 100 100 1100 329 0 0 0
 		>;
