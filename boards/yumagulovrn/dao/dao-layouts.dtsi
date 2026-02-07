@@ -1,6 +1,6 @@
 /*
  * Physical layout for Dao 44 (ZMK Studio support).
- * Key order matches extra_keys_transform map.
+ * Coordinates from config/info.json (dao-zmk-config), key order matches extra_keys_transform.
  *
  * SPDX-License-Identifier: MIT
  */
@@ -15,48 +15,48 @@
 		kscan = <&kscan0>;
 		keys = <
 			&key_physical_attrs 100 100 0 159 0 0 0
-			&key_physical_attrs 100 100 0 79 0 0 0
-			&key_physical_attrs 100 100 100 66 0 0 0
-			&key_physical_attrs 100 100 200 27 0 0 0
-			&key_physical_attrs 100 100 300 0 0 0 0
-			&key_physical_attrs 100 100 400 27 0 0 0
-			&key_physical_attrs 100 100 500 40 0 0 0
-			&key_physical_attrs 100 100 1250 27 0 0 0
-			&key_physical_attrs 100 100 1150 0 0 0 0
-			&key_physical_attrs 100 100 1050 27 0 0 0
+			&key_physical_attrs 100 100 100 79 0 0 0
+			&key_physical_attrs 100 100 200 66 0 0 0
+			&key_physical_attrs 100 100 300 26 0 0 0
+			&key_physical_attrs 100 100 400 0 0 0 0
+			&key_physical_attrs 100 100 500 26 0 0 0
+			&key_physical_attrs 100 100 600 40 0 0 0
 			&key_physical_attrs 100 100 950 40 0 0 0
-			&key_physical_attrs 100 100 850 27 0 0 0
-			&key_physical_attrs 100 100 750 40 0 0 0
-			&key_physical_attrs 150 100 675 338 3000 725 413
-			&key_physical_attrs 100 100 0 179 0 0 0
-			&key_physical_attrs 100 100 100 166 0 0 0
-			&key_physical_attrs 100 100 200 127 0 0 0
-			&key_physical_attrs 100 100 300 100 0 0 0
-			&key_physical_attrs 100 100 400 127 0 0 0
-			&key_physical_attrs 100 100 500 140 0 0 0
-			&key_physical_attrs 100 100 1250 127 0 0 0
-			&key_physical_attrs 100 100 1150 100 0 0 0
-			&key_physical_attrs 100 100 1050 127 0 0 0
+			&key_physical_attrs 100 100 1050 26 0 0 0
+			&key_physical_attrs 100 100 1150 0 0 0 0
+			&key_physical_attrs 100 100 1250 26 0 0 0
+			&key_physical_attrs 100 100 1350 66 0 0 0
+			&key_physical_attrs 100 100 1450 79 0 0 0
+			&key_physical_attrs 100 100 1550 159 0 0 0
+			&key_physical_attrs 100 100 100 179 0 0 0
+			&key_physical_attrs 100 100 200 166 0 0 0
+			&key_physical_attrs 100 100 300 126 0 0 0
+			&key_physical_attrs 100 100 400 100 0 0 0
+			&key_physical_attrs 100 100 500 126 0 0 0
+			&key_physical_attrs 100 100 600 140 0 0 0
 			&key_physical_attrs 100 100 950 140 0 0 0
-			&key_physical_attrs 100 100 850 127 0 0 0
-			&key_physical_attrs 100 100 750 140 0 0 0
-			&key_physical_attrs 100 100 0 279 0 0 0
-			&key_physical_attrs 100 100 100 266 0 0 0
-			&key_physical_attrs 100 100 200 227 0 0 0
-			&key_physical_attrs 100 100 300 200 0 0 0
-			&key_physical_attrs 100 100 400 227 0 0 0
-			&key_physical_attrs 100 100 500 240 0 0 0
-			&key_physical_attrs 100 100 1250 227 0 0 0
-			&key_physical_attrs 100 100 1150 200 0 0 0
-			&key_physical_attrs 100 100 1050 227 0 0 0
+			&key_physical_attrs 100 100 1050 126 0 0 0
+			&key_physical_attrs 100 100 1150 100 0 0 0
+			&key_physical_attrs 100 100 1250 126 0 0 0
+			&key_physical_attrs 100 100 1350 166 0 0 0
+			&key_physical_attrs 100 100 1450 179 0 0 0
+			&key_physical_attrs 100 100 100 279 0 0 0
+			&key_physical_attrs 100 100 200 266 0 0 0
+			&key_physical_attrs 100 100 300 226 0 0 0
+			&key_physical_attrs 100 100 400 200 0 0 0
+			&key_physical_attrs 100 100 500 226 0 0 0
+			&key_physical_attrs 100 100 600 240 0 0 0
 			&key_physical_attrs 100 100 950 240 0 0 0
-			&key_physical_attrs 100 100 850 227 0 0 0
-			&key_physical_attrs 100 100 750 240 0 0 0
+			&key_physical_attrs 100 100 1050 226 0 0 0
+			&key_physical_attrs 100 100 1150 200 0 0 0
+			&key_physical_attrs 100 100 1250 226 0 0 0
+			&key_physical_attrs 100 100 1350 266 0 0 0
+			&key_physical_attrs 100 100 1450 279 0 0 0
 			&key_physical_attrs 100 100 450 329 0 0 0
-			&key_physical_attrs 100 100 561 345 1500 611 395
-			&key_physical_attrs 150 100 675 338 (-3000) 725 413
-			&key_physical_attrs 100 100 876 338 3000 826 413
-			&key_physical_attrs 100 100 990 345 (-1500) 1040 395
+			&key_physical_attrs 100 100 560 344 1500 610 394
+			&key_physical_attrs 150 100 675 338 3000 725 413
+			&key_physical_attrs 150 100 875 338 (-3000) 925 413
+			&key_physical_attrs 100 100 990 344 (-1500) 1040 394
 			&key_physical_attrs 100 100 1100 329 0 0 0
 		>;
 	};
