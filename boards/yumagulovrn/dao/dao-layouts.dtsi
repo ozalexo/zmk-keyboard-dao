@@ -53,9 +53,9 @@
 			&key_physical_attrs 100 100 1350 266 0 0 0
 			&key_physical_attrs 100 100 1450 279 0 0 0
 			&key_physical_attrs 100 100 450 329 0 0 0
-			&key_physical_attrs 100 100 560 344 1500 610 394
-			&key_physical_attrs 150 100 675 338 3000 725 413
-			&key_physical_attrs 150 100 875 338 (-3000) 925 413
+			&key_physical_attrs 100 100 560 344 1500 611 394
+			&key_physical_attrs 150 100 675 338 3000 750 388
+			&key_physical_attrs 150 100 875 338 (-3000) 950 388
 			&key_physical_attrs 100 100 990 344 (-1500) 1040 394
 			&key_physical_attrs 100 100 1100 329 0 0 0
 		>;
